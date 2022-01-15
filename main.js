@@ -1,10 +1,10 @@
 let n = 6;
-let cars = [6, 2, 12, 6, 7, 2];
+let cars = [6, 2, 12, 1, 7, 9];
 let k = 3;
 
-let min;
 let lengthOfRoof = [];
 
+let output = document.getElementById("a");
 
 let sortArr = (arr) => {
     for(let i = 0; i <= n; i++){ 
@@ -26,7 +26,7 @@ let getArrLength = (arrCars) => {
     }
 
     sortArr(lengthOfRoof);
-    console.log(lengthOfRoof[0]);
+    output.innerText = lengthOfRoof[0];
 }
 
 
