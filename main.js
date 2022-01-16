@@ -14,8 +14,8 @@ let sortArr = (arr) => {
             }
         }
     }
+
     getUnique(arr);
-    console.log(arr);
     return arr;
 }
 
