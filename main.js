@@ -1,5 +1,5 @@
 let n = 6;
-let cars = [6, 2, 12, 2, 7, 6];
+let cars = [6, 2, 12, 7];
 let k = 3;
 
 let lengthOfRoof = [];
